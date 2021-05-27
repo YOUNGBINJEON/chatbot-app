@@ -76,7 +76,14 @@ router.post('/eventQuery', async (req, res) => {
 
 
 
+// we will make two routes
 
+// Text Query Route
+
+router.post('/textQuery',( req, res) => {
+    // We need to send some information that comes from the client to Dialogflow API
+    
+})
 
 
 
